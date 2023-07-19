@@ -1,0 +1,11 @@
+.footer{
+    height: 25rem;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+
+.footer li{
+    list-style: none; 
+}

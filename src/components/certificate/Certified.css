@@ -1,0 +1,38 @@
+.certified{
+    height: 20rem;
+    border-radius: 20px;
+    margin-bottom: 7rem;
+   
+}
+
+
+
+.certified h6 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+  }
+  
+  .certified p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  @media (max-width: 767px) {
+    .certified {
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .certified h6 {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+  
+    .certified p {
+      font-size: 0.9375rem;
+      line-height: 1.625rem;
+    }
+  }
+  
